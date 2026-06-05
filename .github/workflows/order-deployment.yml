@@ -53,7 +53,7 @@ jobs:
           repository: Digi-Booktrack-Application-dev/digi_community_booktrack_artifact
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           path: artifact-repo
-
+          
       # CHECK PREVIOUS HASH
       - name: Check previous hash
         run: |
